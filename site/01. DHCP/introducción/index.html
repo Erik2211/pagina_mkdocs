@@ -1,0 +1,598 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.0, mkdocs-material-8.5.6">
+    
+    
+      
+        <title>Introducción - erik mkdocs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="erik mkdocs" class="md-header__button md-logo" aria-label="erik mkdocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            erik mkdocs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introducción
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="erik mkdocs" class="md-nav__button md-logo" aria-label="erik mkdocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    erik mkdocs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        ERIK MKDOCS
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00.presentacion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00.presentacion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00.presentacion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00.presentacion/SXI001_Presentacion/" class="md-nav__link">
+        SXI001 Presentacion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          UT0
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="UT0" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          UT0
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00.presentacion/UT0/ssh/" class="md-nav__link">
+        Ssh
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          01. DHCP
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01. DHCP" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          01. DHCP
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Introducción
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Introducción</h1>
+
+<p><strong>Unitat 01 - DHCP</strong> </p>
+<p>Maite Martí </p>
+<p><img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.001.png" /> Unitat1–DHCP Curso2021-2022<img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.002.png" /></p>
+<p><strong>UNIT 1 <img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.003.png" /></strong></p>
+<p><img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.004.png" /></p>
+<p><strong>What is DHCP and How DHCP Works? (DHCP Fundamentals Explained)</strong> </p>
+<p>Computer networks can be of any form like a LAN, WAN etc. If you are connected to a local LAN or an internet connection, the IP addresses form the basis of communication over computer networks. An IP address is the identity of a host or a computer device while connected to any network. </p>
+<p>In most of the cases when you connect your computer to a LAN or internet, you’ll notice that the IP address and other information like subnet mask etc are assigned to your computer automatically. Have you ever thought about how this happens? Well, in this article we will understand the concept of DHCP that forms the basis of this functionality. </p>
+<p><strong>1.- What is DHCP?</strong> </p>
+<p>DHCP stands for Dynamic Host Configuration Protocol. </p>
+<p>As the name suggests, DHCP is used to control the network configuration of a host through a remote server. DHCP functionality comes installed as a default feature in most of the contemporary operating systems. DHCP is an excellent  alternative  to  the  time-consuming  manual  configuration  of network settings on a host or a network device. </p>
+<p>DHCP works on a client-server model. Being a protocol, it has it’s own set of messages that are exchanged between client and server. </p>
+<p>Understanding DHCP helps in debugging many network related problems. </p>
+<p>Read  our  articles  on  wireshark  and  Journey  of  a  packet  on  network  to enhance your understanding on network and network debugging tools. </p>
+<p>In the next section, we will cover the working of this protocol. </p>
+<p><strong>2. -How DHCP Works?</strong> </p>
+<p>Before learning the process through which DHCP achieves it’s goal, we first have to understand the different messages that are used in the process. </p>
+<ol>
+<li><strong>DHCPDISCOVER</strong> </li>
+</ol>
+<p>It  is  a  DHCP  message  that  marks  the  beginning  of  a  DHCP  interaction between client and server. This message is sent by a client (host or device connected to a network) that is connected to a local subnet. It’s a broadcast message that uses 255.255.255.255 as destination IP address while the source IP address is 0.0.0.0 </p>
+<ol>
+<li><strong>DHCPOFFER</strong> </li>
+</ol>
+<p>It is DHCP message that is sent in response to DHCPDISCOVER by a DHCP server to DHCP client. This message contains the network configuration settings for the client that sent the DHCPDISCOVER message. </p>
+<ol>
+<li><strong>DHCPREQUEST</strong> </li>
+</ol>
+<p>This DHCP message is sent in response to DHCPOFFER indicating that the client has accepted the network configuration sent in DHCPOFFER message from the server. </p>
+<ol>
+<li><strong>DHCPACK</strong> </li>
+</ol>
+<p>This message is sent by the DHCP server in response to DHCPREQUEST recieved from the client. This message marks the end of the process that started  with  DHCPDISCOVER.  The  DHCPACK  message  is  nothing  but  an acknowledgement by the DHCP server that authorizes the DHCP client to start  using  the  network  configuration  it  received  from  the  DHCP  server earlier. </p>
+<ol>
+<li><strong>DHCPNAK</strong> </li>
+</ol>
+<p>This  message  is  the  exact  opposite  to  DHCPACK  described  above.  This message is sent by the DHCP server when it is not able to satisfy the DHCPREQUEST message from the client. </p>
+<ol>
+<li><strong>DHCPDECLINE</strong> </li>
+</ol>
+<p>This message is sent from the DHCP client to the server in case the client finds that the IP address assigned by DHCP server is already in use. </p>
+<ol>
+<li><strong>DHCPINFORM</strong> </li>
+</ol>
+<p>This  message  is  sent  from  the  DHCP  client  in  case  the  IP  address  is statically  configured  on  the  client  and  only  other  network  settings  or configurations are desired to be dynamically acquired from DHCP server. </p>
+<ol>
+<li><strong>DHCPRELEASE</strong> </li>
+</ol>
+<p>This message is sent by the DHCP client in case it wants to terminate the lease of network address it has be provided by DHCP server. </p>
+<p><img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.005.png" /></p>
+<p>Now as we know about the various DHCP messages, it’s time to go through the the complete DHCP process to give a better Idea of how DHCP works. Note that the steps mentioned below assume that DHCP functionality is enabled by default on the client side. </p>
+<p>Here are the steps : </p>
+<ul>
+<li><strong>Step  1:</strong>  When  the  client  computer  (or  device)  boots  up  or  is connected to a network, a DHCPDISCOVER message is sent from the client to the server. As there is no network configuration information on the client so the message is sent with 0.0.0.0 as source address and 255.255.255.255 as destination address. If the DHCP server is on local subnet then it directly receives the message or in case it is on different subnet then a relay agent connected on client’s  subnet is used to pass on the request to DHCP server. The transport protocol used for this message is UDP and the port number used is 67. The client enters the initializing stage during this step. </li>
+<li><strong>Step 2:</strong> When the DHCP server receives the DHCPDISCOVER request message  then  it  replies  with  a  DHCPOFFER  message.  As  already explained,  this  message  contains  all  the  network  configuration settings required by the client. For example, the yaddr field of the message will contain the IP address to be assigned to client. Similarly the the subnet mask and gateway information is filled in the options field. Also, the server fills in the client MAC address in the chaddr field.  This  message  is  sent  as  a  broadcast  (255.255.255.255) message for the client to receive it directly or if DHCP server is in different subnet then this message is sent to the relay agent that takes care of whether the message is to be passed as unicast or broadcast. In this case also, UDP protocol is used at the transport layer with destination port as 68. The client enters selecting stage during this step </li>
+<li><strong>Step  3:</strong>  The  client  forms  a  DHCPREQUEST  message  in  reply  to DHCPOFFER message and sends it to the server indicating it wants to accept the network configuration sent in the DHCPOFFER message. If there were multiple DHCP servers that received DHCPDISCOVER then client could receive multiple DHCPOFFER messages. But, the client replies  to  only  one  of  the  messages  by  populating  the  server identification field with the IP address of a particular DHCP server. All the messages from other DHCP servers are implicitly declined. The DHCPREQUEST  message  will  still  contain  the  source  address  as </li>
+<li>as the client is still not allowed to use the IP address passed to  it  through  DHCPOFFER  message.  The  client  enters  requesting stage during this step. </li>
+<li><strong>Step 4:</strong> Once the server receives DHCPREQUEST from the client, it sends the DHCPACK message indicating that now the client is allowed to use the IP address assigned to it. The client enters the bound state during this step. </li>
+</ul>
+<p><strong>3.- The Concept of Lease</strong> </p>
+<p>With all the necessary information on how DHCP works, one should also know that the IP  address assigned by DHCP server to DHCP client is on a lease. After the lease expires the DHCP server is free to assign the same IP address to any other host or device requesting for the same. For example, keeping lease time 8-10 hours is helpful in case of PC’s that are shut down at the end of the day.  So, lease has to be renewed from time to time. The DHCP client tries to renew the lease after half of the lease time has expired. This is done by the exchange of DHCPREQUEST and DHCPACK messages. While doing all this, the client enters the renewing stage. </p>
+<p><strong>4.- How To Set Up A DHCP Server For Your LAN</strong>  </p>
+<p>This tutorial describes how to set up a DHCP server (ISC-DHCP) for your local network. DHCP is short for "Dynamic Host Configuration Protocol", it's a protocol that handles the assignment of IP addresses, subnet masks, default routers, and other  IP  parameters  to  client  PCs  that  don't  have  a  static  IP  address.  Such computers try to find a DHCP server in their local network which in turn assigns them an IP address, gateway, etc. so that they can connect to the internet or other computers from the local network. </p>
+<p>In this short guide I will show how to set up a simple DHCP server (ISC-DHCP) on a Ubuntu  system  whose  sole  purpose  is  to  assign  IP  adresses,  a  gateway,  DNS servers, etc. to client computers from the local network that don't have a static IP address. You can use such a DHCP server in your home network, your office, etc., for example if your router doesn't come with a built-in DHCP server. If you set up such a DHCP server, please make sure you don't already have another one in your LAN as this might result in conflicts.  </p>
+<p><strong>4.1- Preliminary Note</strong> </p>
+<p>This is the current situation: </p>
+<ul>
+<li>I'm  using  the  network  10.10.10.0,  subnetmask 255.255.255.0, broadcast address 10.10.10.255.</li>
+<li>My gateway to the internet is 10.10.10.2xx; on the gateway there's no DHCP server.</li>
+<li>My ISP told me the DNS servers I can use are 172.27.111.5 and 172.27.111.6</li>
+<li>I have a pool of 30 IP addresses (10.10.10.2 – 10.10.10.199) that can be dynamically assigned to client PCs and <strong>that are not already in use</strong>.</li>
+</ul>
+<p><strong><em>4.2 HowtoinstallDHCPserver</em></strong></p>
+<p>First of all, you need to install the DHCP server, which you can do by running the following command: sudo apt install isc-dhcp-server</p>
+<p><strong><em>HowtoconfigureDHCPserver</em></strong></p>
+<p>Once the installation is complete, you need to assign network interfaces on which the DHCP server will serve. To do so, edit the default configuration file of the DHCP server via any text editor (I've used vim for that purpose): </p>
+<p>sudo vim /etc/default/isc-dhcp-server</p>
+<p>In the default configuration file edit the value of INTERFACESv4 and write the one you want the DHCP server to serve requests. </p>
+<p>INTERFACESv4="enps08" </p>
+<p>If you have more than one interface DHCP to serve add them inside the quotes separating with spaces. </p>
+<p>INTERFACESv4="enps0s8 enp0s3" </p>
+<p>Once the interface(s) is(are) assigned, you can proceed to DHCP server configuration. To configure the DHCP  server edit the /etc/dhcp/dhcpd.conf file via any text editor. To do so, type the command below: </p>
+<p>sudo vim /etc/dhcp/dhcpd.conf</p>
+<p>Change the domain name and domain name servers (DNS) according to yours in the section mentioned below: </p>
+<ul>
+<li>option definitions common to all supported networks...</li>
+</ul>
+<p><code></code>option domain-name "your_domain.com";</p>
+<p><code></code>option domain-name-servers ns1.your_domain.com, ns2.your_domain.com;</p>
+<p>If this DHCP server is the official DHCP server for the local network, the authoritative directive should be uncommented. </p>
+<p>authoritative;</p>
+<p>For  an  internal  subnet  configuration  find  the  section  with  "A  slightly  different  configuration  for  an internal subnet." comment, uncomment all lines in the section and change the values according your needs. For example: </p>
+<p>subnet 10.10.10.0 netmask 255.255.255.0 { range 10.10.10.150 10.10.10.170; option domain-name-servers ns1.your_domain.com; option domain-name "local.your_domain.com"; option subnet-mask 255.255.255.0; </p>
+<p>option routers 10.10.10.2xx; </p>
+<p>option broadcast-address 10.10.10.255; default-lease-time 600; </p>
+<p>max-lease-time 7200; </p>
+<p>} </p>
+<p>In this configuration, we have mentioned the local domain name, DNS, IP range from which IPs will be assigned to clients, default and max lease times. </p>
+<p>Restart the DHCP server and it will start serve according to your configuration. To restart, type: systemctl restart isc-dhcp-server</p>
+<p><strong><em>AssignfixedIPaddresstoclientwithspecificMACaddress</em></strong></p>
+<p>If you want to assign specific IP address to specific client you can use client's MAC address to achieve that goal. This means that the fixed IP address will be assigned to the client whose MAC address is configured in the configuration file and it won't be assigned to any other client. </p>
+<p>To check MAC address on the client's machine run: ip a </p>
+<p>The output will look like the one below: </p>
+<p>eth0: <BROADCAST,MULTICAST,UP,LOWER\_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000</p>
+<p><code></code>link/ether 00:0c:29:39:c7:81 brd ff:ff:ff:ff:ff:ff</p>
+<p><code></code>inet 10.10.2xx.210/24 brd 192.168.0.255 scope global dynamic eth0 </p>
+<p><code></code>valid_lft 73924sec preferred_lft 73924sec</p>
+<p><code></code>inet6  2600:3c01::f03c:91ff:fe62:5d78/64  scope  global  dynamic mngtmpaddr noprefixroute</p>
+<p><code></code>valid_lft 598sec preferred_lft 298sec</p>
+<p><code></code>inet6 fe80::f03c:91ff:fe62:5d78/64 scope link</p>
+<p><code></code>valid_lft forever preferred_lft forever </p>
+<p>The underlined part is the MAC address of the mentioned network adapter. To assign fixed IP address to specific MAC address, edit the vim /etc/dhcp/dhcpd.conf file and add the following section (you must add different sections for different clients): </p>
+<p>host fixed-ip-client {</p>
+<p><code></code>hardware ethernet 00:0c:29:39:c7:81;  fixed-address 10.10.10.250; </p>
+<p><code></code>} </p>
+<p>As you can notice we've given an IP address to the client out of the range that we configured to use the DHCP server. If you use an IP address within the IP range, DHCP server will skip that IP address to lease to clients dyamically and your IP range actually will be decreased by one IP address. </p>
+<p>After making changes in the configuration file, save it and restart the DHCP server to apply the changes. To restart type the following command: </p>
+<p>systemctl restart isc-dhcp-server</p>
+<p>To  restart the  network  service  on  Ubuntu  machine  client  command  line  you  can  run  one  of  the following commands: </p>
+<p>sudo systemctl restart NetworkManager.service or </p>
+<p>sudo service network-manager restart</p>
+<p>After network service restart, if you check network configuration with ifconfig or ip command, you will see output like the one below: </p>
+<p>eth0: <BROADCAST,MULTICAST,UP,LOWER\_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000 </p>
+<p>link/ether 00:0c:29:39:c7:81 brd ff:ff:ff:ff:ff:ff </p>
+<p>inet10.10.10.250/24 brd 10.10.10.255 scope global dynamic eth0 valid_lft 73924sec preferred_lft 73924sec </p>
+<p>inet6  2600:3c01::f03c:91ff:fe62:5d78/64  scope  global  dynamic mngtmpaddr noprefixroute </p>
+<p>valid_lft 598sec preferred_lft 298sec </p>
+<p>inet6 fe80::f03c:91ff:fe62:5d78/64 scope link </p>
+<p>valid_lft forever preferred_lft forever </p>
+<p>This exact output is from the client machine that we have configured to receive fixed IP address. As it's seen from output it received 10.10.10.250 IP address which we have set in /etc/dhcp/dhcpd.conf file on dhcp server. </p>
+<p><strong>4.4 How Can I See That My DHCP Server Is Working OK?</strong> </p>
+<p>To see if your DHCP server is working as expected, boot another PC (Windows, Linux, MAC, ...) in your LAN that doesn't have a static IP address. Wait a few seconds, and in /var/log/syslog on the DHCP server you should see that the DHCP server  assigns  an  IP  address  to  your  PC.  For  example,  in  this  excerpt  of /var/log/syslog,  a  client  PC  named  matze  has  been  assigned  the  IP  address 192.168.88.209: </p>
+<p>Sep 19 16:01:26 server1 dhcpd: DHCPDISCOVER from 00:0c:76:8b:c4:16 via eth0 Sep 19 16:01:26 server1 dhcpd: DHCPOFFER on 10.10.10.250 to 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:27 server1 dhcpd: DHCPDISCOVER from 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:27 server1 dhcpd: DHCPOFFER on 10.10.10.250 to 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:31 server1 dhcpd: DHCPDISCOVER from 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:31 server1 dhcpd: DHCPOFFER on 10.10.10.250 to 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:31 server1 dhcpd: Wrote 1 leases to leases file. </p>
+<p>Sep  19  16:01:31  server1  dhcpd:  DHCPREQUEST  for  10.10.10.250  from 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>Sep 19 16:01:31 server1 dhcpd: DHCPACK on 10.10.10.250 to 00:0c:76:8b:c4:16 (matze) via eth0 </p>
+<p>The  DHCP  server  writes  all  current  IP  address  "leases"  to  the  file /var/lib/dhcp3/dhcpd.leases so you should also find the lease there: </p>
+<p>vi /var/lib/dhcp3/dhcpd.leases <img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.006.png" /></p>
+<ul>
+<li>All times in this file are in UTC (GMT), not your local timezone.   This is <img alt="" src="../Aspose.Words.7e061984-b0b2-4bc8-9099-6638129d80a3.007.png" /></li>
+<li>not a bug, so please don't ask about it.   There is no portable way to # store leases in the local timezone, so please don't request this as a # feature.    If  this  is  inconvenient  or  confusing  to  you,  we  sincerely  # apologize.   Seriously, though - don't ask. # The format of this file is documented in the dhcpd.leases(5) manual page. # This lease file was written by isc-dhcp-V3.0.1  lease 10.10.10.250{   starts 2 2006/09/19 14:01:31;   ends 3 2006/09/20 14:01:31;   binding state active;   next binding  state  free;    hardware  ethernet  00:0c:76:8b:c4:16;    uid "\001\000\014v\213\304\026";   client-hostname "matze"; } </li>
+</ul>
+<p>Have Fun! 
+9</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../00.presentacion/UT0/ssh/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ssh" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Ssh
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/squidfunk" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.078830c0.min.js"></script>
+      
+    
+  </body>
+</html>
